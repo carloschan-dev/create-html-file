@@ -1,10 +1,10 @@
 # create-html-file
-Herramienta para crear la estructura básica de un archivo html.
+Herramienta sencilla para crear la estructura básica de un archivo html.
 
 ## Uso
 
 ```bash
-$ create-html-file
+create-html-file
 ```
 
 | Opción      | Descripción                                 |
@@ -25,13 +25,13 @@ Entonces dentro de la carpeta abra una terminal y copie el archivo create-html-f
 > Observe que al copiar el script usando **cp** se omite la extensión **.py** en el archivo de destino.
 
 ```bash
-$ sudo cp create-html-file.py /usr/local/bin/create-html-file
+sudo cp create-html-file.py /usr/local/bin/create-html-file
 ```
 
 ## Desinstalar
 
-Para Desinstalar completamente unicamente elimine el archivo **index-html** de **/usr/local/bin**
+Para Desinstalar completamente unicamente elimine el archivo **create-html-file** de **/usr/local/bin**
 
 ```bash
-$ sudo rm /usr/local/bin/create-html-file
+sudo rm /usr/local/bin/create-html-file
 ```

@@ -62,7 +62,7 @@ def create_template():
         new_template = new_template.replace(item[0],item[1])
     return new_template
 
-def main(args):
+def main():
     new_template = create_template()
     export_template(new_template)
 
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     if exists(FILE_NAME) and isfile(FILE_NAME):
         print(f"Error: The file {args.f} already exists")
         exit(1)
-    main(args)
+    main()
